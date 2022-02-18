@@ -1,4 +1,6 @@
+# DL-DIY potential project ideas
 
+Run the code on the SBM datasets for community detection. Create new datasets to compare perfs for various parametes, test generalization...
 
 # Graph Transformer Architecture
 
