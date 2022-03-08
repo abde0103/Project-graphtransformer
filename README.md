@@ -15,7 +15,7 @@ For graph transformers described below, we tested (cf presentation.pdf) :
 - prepare_data.py : put the generated data in the right format for the main_scripts.
 - data/SBMs/SBMs_generated.py : Useful to build SBMsDataset graphs, only used when training the model.
 - nets/SBMs_node_classification/graph_transformer_net_concat.py : Architecture with LaplacianPE concatenation instead of a simple addition.
-- All the scripts in scripts/MAP583 : see below.
+- All the scripts in scripts/MAP583 : Useful to reproduce our experiments.
 - All the files in the folder results : basic results for presentation.pdf.
 - results/SNR_results/analyse_results.ipynb : notebook to reproduce the plots in presentation.pdf.
 - presentation.pdf
