@@ -32,7 +32,7 @@ python generate_SBM.py --p1 0.5 --p2 0.5 --q 0.2 --size_min 80 --size_max 120 --
 cd ../../
 python prepare_data.py --p1 0.5   ## in the root directory
 ```
-## 4. New results reproducibility
+## 4. Our results reproducibility
 - First you have to activate graph_transformer env
 ```
 conda activate graph_transformer_gpu ## if gpu instructions were followed
