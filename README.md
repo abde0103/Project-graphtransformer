@@ -14,7 +14,10 @@ python generate_SBM.py --p1 0.5 --q 0.2 --size_min 80 --size_max 120
 python prepare_data.py --p1 0.5 ## in the root directory
 ```
 ## New results reproducibility
-
+- First you have to activate graph_transformer env
+```
+conda activate graph_transformer
+```
 - To reproduce the results of Accuracy in terms of SNR using Batch-norm in the graph transformer please run :
 ```
 bash scripts/MAP583/accuracy_SNR_Batch_norm.sh
