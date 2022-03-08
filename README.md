@@ -16,22 +16,22 @@ python prepare_data.py --p1 0.5 ## in the root directory
 ## New results reproducibility
 - First you have to activate graph_transformer env
 ```
-conda activate graph_transformer
+conda activate graph_transformer_gpu
 ```
-- To reproduce the results of Accuracy in terms of SNR using Batch-norm in the graph transformer please run :
+- To reproduce the results of Accuracy in terms of SNR using Batch-norm (cf presentation.pdf) in the graph transformer, please run :
 ```
 bash scripts/MAP583/accuracy_SNR_Batch_norm.sh
 ```
 
-- To reproduce the results of Accuracy in terms of SNR using Layer-norm in the graph transformer please run :
+- To reproduce the results of Accuracy in terms of SNR using Layer-norm (cf presentation.pdf) in the graph transformer, please run :
 ```
 bash scripts/MAP583/accuracy_SNR_Layer_norm.sh
-```
-- To reproduce the results of test generalisation please run :
+``` 
+- To reproduce the results of test generalisation (cf presentation.pdf), please run :
 ```
 bash scripts/MAP583/test_generalisation.sh
 ```
-- To reproduce the comparative table beetween generated dataset and orignal SBM dataset on all tests in the paper( sparse graph, full graph, with PE, without PE, etc...) and between sum laplacien encoding and concat laplacien encoding :
+- To reproduce the comparative table beetween generated dataset and orignal SBM dataset on all tests in the paper (sparse graph, full graph, with PE, without PE, etc...) and between sum laplacien encoding and concat laplacien encoding (cf presentation.pdf) :
 ```
 bash scripts/MAP583/paper_result_replication_&_concatNormalisation.sh
 ```
