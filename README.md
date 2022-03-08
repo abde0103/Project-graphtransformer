@@ -29,7 +29,7 @@ bash scripts/MAP583/accuracy_SNR_Layer_norm.sh
 bash scripts/MAP583/test_generalisation.sh
 ```
 - To reproduce the comparative table beetween generated dataset and orignal SBM dataset on all tests in the paper( sparse graph, full graph, with PE, without PE, etc...) and between sum laplacien encoding and concat laplacien encoding :
-- ```
+```
 bash scripts/MAP583/paper_result_replication_&_concatNormalisation.sh
 ```
 # Graph Transformer Architecture
