@@ -1,4 +1,5 @@
-# Updates after the fork
+# Graph Transformer Architecture
+## Updates and experiments
 
 For graph transformers described below, we tested (cf presentation.pdf) : 
 - Generation of SBM datasets using different intra-communities and inter-communities densities. 
@@ -50,7 +51,7 @@ bash scripts/MAP583/test_generalisation.sh
 bash scripts/MAP583/paper_result_replication_&_concatNormalisation.sh
 ```
 
-# Graph Transformer Architecture
+# II. Readme content of the source code of the paper
 
 Source code for the paper "**[A Generalization of Transformer Networks to Graphs](https://arxiv.org/abs/2012.09699)**" by _[Vijay Prakash Dwivedi](https://github.com/vijaydwivedi75) and [Xavier Bresson](https://github.com/xbresson)_, at **AAAI'21 Workshop on Deep Learning on Graphs: Methods and Applications (DLG-AAAI'21)**.
 
