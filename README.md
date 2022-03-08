@@ -19,6 +19,7 @@ For graph transformers described below, we tested (cf presentation.pdf) :
 - All the scripts in scripts/MAP583 : Useful to reproduce our experiments.
 - All the files in the folder results : basic results for presentation.pdf.
 - results/SNR_results/analyse_results.ipynb : notebook to reproduce the plots in presentation.pdf.
+- Modifications in some existing scripts : data/data.py, data/SBMs.py ...
 - presentation.pdf
 
 ## 3. Dataset generation
