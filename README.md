@@ -7,6 +7,7 @@ For graph transformers described below, we tested (cf presentation.pdf) :
 - Model performances (accuracy on test set) for different Signal-Noise-ratio (fixed q and variable p).
 - Model performances for different hidden dimension (cf "**[A Generalization of Transformer Networks to Graphs](https://arxiv.org/abs/2012.09699)**"). 
 - concatenating the Laplacian positional encoding and the input instead of summing them for full attention architecture and sparse attention architecture.
+- Reproducing the paper results on smaller generated datasets. 
 - Testing different Positional encoding methods : without/ with LaplacianPE/ WL-PE.
 
 
