@@ -1,9 +1,11 @@
 # Updates after the fork
 
 For graph transformers described below, we tested (cf presentation.pdf) : 
-- Generation of SBM datasets using different intra-communities and inter-communities density. 
-- Accuracy on test sets for different Signal-Noise-ratio (fixed q and variable p).
+- Generation of SBM datasets using different intra-communities and inter-communities densities. 
+- Model performances (accuracy on test set) for different Signal-Noise-ratio (fixed q and variable p).
+- Model performances for different hidden dimension (cf "**[A Generalization of Transformer Networks to Graphs](https://arxiv.org/abs/2012.09699)**"). 
 - concatenating the Laplacion positional encoding and the input instead of summing them.
+
 
 
 ## Dataset generation
@@ -40,6 +42,7 @@ bash scripts/MAP583/test_generalisation.sh
 ```
 bash scripts/MAP583/paper_result_replication_&_concatNormalisation.sh
 ```
+
 # Graph Transformer Architecture
 
 Source code for the paper "**[A Generalization of Transformer Networks to Graphs](https://arxiv.org/abs/2012.09699)**" by _[Vijay Prakash Dwivedi](https://github.com/vijaydwivedi75) and [Xavier Bresson](https://github.com/xbresson)_, at **AAAI'21 Workshop on Deep Learning on Graphs: Methods and Applications (DLG-AAAI'21)**.
