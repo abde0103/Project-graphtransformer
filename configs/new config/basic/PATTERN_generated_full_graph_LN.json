@@ -7,7 +7,7 @@
     "model": "GraphTransformer",
     "dataset": "p_0.5",
     
-    "out_dir":  "out/pattern_generated/basic",
+    "out_dir":  "out/pattern_generated/basic/basic",
     
     "params": {
         "seed": 41,
