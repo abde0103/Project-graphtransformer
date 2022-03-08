@@ -3,6 +3,7 @@
 Run the code on the SBM datasets for community detection. Create new datasets to compare perfs for various parametes, test generalization...
 
 In terminal :
+## Dataset generation
 - To generate a dataset, please run : 
 ```
 cd data/SBMs
@@ -12,7 +13,12 @@ python generate_SBM.py --p1 0.5 --q 0.2 --size_min 80 --size_max 120
 ```
 python prepare_data.py --p1 0.5 ## in the root directory
 ```
+## New results reproducibility
 
+To reproduce the results of Accuracy in terms of SNR using Batch-norm in the graph transformer please run :
+```
+bash scripts/MAP 583/accuracy_SNR_Batch_norm.sh
+```
 # Graph Transformer Architecture
 
 Source code for the paper "**[A Generalization of Transformer Networks to Graphs](https://arxiv.org/abs/2012.09699)**" by _[Vijay Prakash Dwivedi](https://github.com/vijaydwivedi75) and [Xavier Bresson](https://github.com/xbresson)_, at **AAAI'21 Workshop on Deep Learning on Graphs: Methods and Applications (DLG-AAAI'21)**.
@@ -49,7 +55,7 @@ This project is based on the [benchmarking-gnns](https://github.com/graphdeeplea
 
 <br>
 
-## 3. Reproducibility 
+## 3. Reproducibility of the original paper 
 
 [Use this page](./docs/03_run_codes.md) to run the codes and reproduce the published results.
 
