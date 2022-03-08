@@ -1,4 +1,6 @@
-# I. Updates and experiments : Graph Transformer Architecture
+# I. Graph Transformer Architecture
+
+## 1. Updates and experiments 
 
 For graph transformers described below, we tested (cf presentation.pdf) : 
 - Generation of SBM datasets using different intra-communities and inter-communities densities. 
