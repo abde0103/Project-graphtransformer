@@ -7,8 +7,10 @@ In terminal :
 ```
 cd data/SBMs
 python generate_SBM.py --p1 0.5 --q 0.2 --size_min 80 --size_max 120 
-cd ../../
-python prepare_data.py --p1 0.5
+```
+- To put it in the right format for the main script, please run : 
+```
+python prepare_data.py --p1 0.5 ## in the root directory
 ```
 
 # Graph Transformer Architecture
