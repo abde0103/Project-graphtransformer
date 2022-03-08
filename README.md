@@ -1,29 +1,34 @@
 # DL-DIY potential project ideas
 
-Run the code on the SBM datasets for community detection. Create new datasets to compare perfs for various parametes, test generalization...
+For graph transformers described below, we tested (cf presentation.pdf) : 
+- Generation of SBM datasets using different intra-communities and inter-communities density. 
+- Accuracy on test sets for different Signal-Noise-ratio (fixed q and variable p).
+- concatenating the Laplacion positional encoding and the input instead of summing them.
 
-In terminal :
+
 ## Dataset generation
 - To generate a dataset, please run : 
 ```
 cd data/SBMs
-python generate_SBM.py --p1 0.5 --q 0.2 --size_min 80 --size_max 120 
+python generate_SBM.py --p1 0.5 --p2 0.5 --q 0.2 --size_min 80 --size_max 120 --size_min_test 80 --size_max_test 120
 ```
-- To put it in the right format for the main script, please run : 
+- To put it in the right format for the main_script, please run : 
 ```
-python prepare_data.py --p1 0.5 ## in the root directory
+cd ../../
+python prepare_data.py --p1 0.5   ## in the root directory
 ```
 ## New results reproducibility
 - First you have to activate graph_transformer env
 ```
-conda activate graph_transformer_gpu
+conda activate graph_transformer_gpu ## if gpu instructions were followed
+conda activate graph_transformer ## if cpu instructions were followed
 ```
-- To reproduce the results of Accuracy in terms of SNR using Batch-norm (cf presentation.pdf) in the graph transformer, please run :
+- To reproduce the results of Accuracy in terms of SNR while using Batch-norm (cf presentation.pdf) in the graph transformer, please run :
 ```
 bash scripts/MAP583/accuracy_SNR_Batch_norm.sh
 ```
 
-- To reproduce the results of Accuracy in terms of SNR using Layer-norm (cf presentation.pdf) in the graph transformer, please run :
+- To reproduce the results of Accuracy in terms of SNR while using Layer-norm (cf presentation.pdf) in the graph transformer, please run :
 ```
 bash scripts/MAP583/accuracy_SNR_Layer_norm.sh
 ``` 
