@@ -1,5 +1,5 @@
 # Graph Transformer Architecture
-## Updates and experiments
+## 1. Updates and experiments
 
 For graph transformers described below, we tested (cf presentation.pdf) : 
 - Generation of SBM datasets using different intra-communities and inter-communities densities. 
@@ -7,7 +7,7 @@ For graph transformers described below, we tested (cf presentation.pdf) :
 - Model performances for different hidden dimension (cf "**[A Generalization of Transformer Networks to Graphs](https://arxiv.org/abs/2012.09699)**"). 
 - concatenating the Laplacion positional encoding and the input instead of summing them.
 
-## Added scripts
+## 2. Added scripts
 - data/SBMs/generate_SBM.py : generate SBM datasets with the desired parameters
 - data/SBMs/utils_generate_SBM.py : Useful functions and classes for data/SBMs/generate_SBM.py
 - prepare_data.py : put the generated data in the right format for the main_scripts
@@ -16,7 +16,7 @@ For graph transformers described below, we tested (cf presentation.pdf) :
 - All the files in the folder results : basic results for presentation.pdf 
 - presentation.pdf
 
-## Dataset generation
+## 3. Dataset generation
 - To generate a dataset, please run : 
 ```
 cd data/SBMs
@@ -27,7 +27,7 @@ python generate_SBM.py --p1 0.5 --p2 0.5 --q 0.2 --size_min 80 --size_max 120 --
 cd ../../
 python prepare_data.py --p1 0.5   ## in the root directory
 ```
-## New results reproducibility
+## 4. New results reproducibility
 - First you have to activate graph_transformer env
 ```
 conda activate graph_transformer_gpu ## if gpu instructions were followed
