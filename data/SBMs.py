@@ -22,7 +22,7 @@ class load_SBMsDataSetDGL(torch.utils.data.Dataset):
 
         self.split = split
         self.is_test = split.lower() in ['test', 'val'] 
-        with open(os.path.join(data_dir, name + '_%s.pkl' % self.split), 'rb') as f:
+        with open(os.path.join(data_dir, name + '_%s.pkl' % self.split).replace("\\",'/'), 'rb') as f:
             self.dataset = pickle.load(f)
         self.node_labels = []
         self.graph_lists = []

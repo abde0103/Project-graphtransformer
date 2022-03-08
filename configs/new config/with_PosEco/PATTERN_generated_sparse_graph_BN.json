@@ -5,7 +5,7 @@
     },
     
     "model": "GraphTransformer",
-    "dataset": "p_0.5",
+    "dataset": "p_0.50.5",
     
     "out_dir":  "out/pattern_generated/pos/pos",
     
