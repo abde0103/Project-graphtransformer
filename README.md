@@ -17,8 +17,18 @@ python prepare_data.py --p1 0.5 ## in the root directory
 
 To reproduce the results of Accuracy in terms of SNR using Batch-norm in the graph transformer please run :
 ```
-bash scripts/MAP 583/accuracy_SNR_Batch_norm.sh
+bash scripts/MAP583/accuracy_SNR_Batch_norm.sh
 ```
+
+To reproduce the results of Accuracy in terms of SNR using Layer-norm in the graph transformer please run :
+```
+bash scripts/MAP583/accuracy_SNR_Layer_norm.sh
+```
+To reproduce the results of test generalisation please run :
+```
+bash scripts/MAP583/test_generalisation.sh
+```
+
 # Graph Transformer Architecture
 
 Source code for the paper "**[A Generalization of Transformer Networks to Graphs](https://arxiv.org/abs/2012.09699)**" by _[Vijay Prakash Dwivedi](https://github.com/vijaydwivedi75) and [Xavier Bresson](https://github.com/xbresson)_, at **AAAI'21 Workshop on Deep Learning on Graphs: Methods and Applications (DLG-AAAI'21)**.
