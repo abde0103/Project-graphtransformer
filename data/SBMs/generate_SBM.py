@@ -149,7 +149,7 @@ if __name__ == '__main__':
                         help='Density inside the second community. If not specified it is equal to p1')
     parser.add_argument('--size_min',type = int,required = False, default = 50,
                         help='Minimal number of nodes in each community')
-    parser.add_argument('--size_max',type = int,required = False, default = 50,
+    parser.add_argument('--size_max',type = int,required = False, default = 100,
                         help='Maximal number of nodes in each community. Fix maximal_size = minimal_size if you want deterministic number of nodes')
     parser.add_argument('--number_instances',type = int,required = False,default = 10,
                         help = 'Number of pattern instances : nb_train_graphs = 100*number_instances, nb_test_graphs = 20*number_instances')
