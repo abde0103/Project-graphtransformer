@@ -6,6 +6,7 @@ from data.SBMs import SBMsDataset
 from data.SBMs_generated import SBMsDataset_G
 
 def LoadData(DATASET_NAME):
+
     """
         This function is called in the main_xx.py file 
         returns:
