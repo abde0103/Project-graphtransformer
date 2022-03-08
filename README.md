@@ -12,6 +12,7 @@ For graph transformers described below, we tested (cf presentation.pdf) :
 - data/SBMs/utils_generate_SBM.py : Useful functions and classes for data/SBMs/generate_SBM.py
 - prepare_data.py : put the generated data in the right format for the main_scripts
 - data/SBMs/SBMs_generated.py : 
+- nets/SBMs_node_classification/graph_transformer_net_concat.py : Architecture with LaplacianPE concatenation instead of a simple addition.
 - All the scripts in scripts/MAP583 : see below
 - All the files in the folder results : basic results for presentation.pdf 
 - presentation.pdf
