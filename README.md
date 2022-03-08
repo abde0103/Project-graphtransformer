@@ -10,14 +10,14 @@ For graph transformers described below, we tested (cf presentation.pdf) :
 
 
 ## 2. Added scripts
-- data/SBMs/generate_SBM.py : generate SBM datasets with the desired parameters
-- data/SBMs/utils_generate_SBM.py : Useful functions for data/SBMs/generate_SBM.py
-- prepare_data.py : put the generated data in the right format for the main_scripts
-- data/SBMs/SBMs_generated.py : Useful to build SBMsDataset graphs : only used when training the model
+- data/SBMs/generate_SBM.py : generate SBM datasets with custom parameters.
+- data/SBMs/utils_generate_SBM.py : Useful functions for data/SBMs/generate_SBM.py.
+- prepare_data.py : put the generated data in the right format for the main_scripts.
+- data/SBMs/SBMs_generated.py : Useful to build SBMsDataset graphs, only used when training the model.
 - nets/SBMs_node_classification/graph_transformer_net_concat.py : Architecture with LaplacianPE concatenation instead of a simple addition.
-- All the scripts in scripts/MAP583 : see below
-- All the files in the folder results : basic results for presentation.pdf 
-- results/SNR_results/analyse_results.ipynb : notebook to reproduce the plots in presentation.pdf
+- All the scripts in scripts/MAP583 : see below.
+- All the files in the folder results : basic results for presentation.pdf.
+- results/SNR_results/analyse_results.ipynb : notebook to reproduce the plots in presentation.pdf.
 - presentation.pdf
 
 ## 3. Dataset generation
