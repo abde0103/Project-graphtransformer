@@ -1,4 +1,4 @@
-# DL-DIY potential project ideas
+# Updates after the fork
 
 For graph transformers described below, we tested (cf presentation.pdf) : 
 - Generation of SBM datasets using different intra-communities and inter-communities density. 
