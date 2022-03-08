@@ -5,13 +5,13 @@ For graph transformers described below, we tested (cf presentation.pdf) :
 - Generation of SBM datasets using different intra-communities and inter-communities densities. 
 - Model performances (accuracy on test set) for different Signal-Noise-ratio (fixed q and variable p).
 - Model performances for different hidden dimension (cf "**[A Generalization of Transformer Networks to Graphs](https://arxiv.org/abs/2012.09699)**"). 
-- concatenating the Laplacion positional encoding and the input instead of summing them for full attention architecture and sparse attention architecture.
+- concatenating the Laplacian positional encoding and the input instead of summing them for full attention architecture and sparse attention architecture.
 - Testing different Positional encoding methods : without/ with LaplacianPE/ WL-PE.
 
 
 ## 2. Added scripts
 - data/SBMs/generate_SBM.py : generate SBM datasets with the desired parameters
-- data/SBMs/utils_generate_SBM.py : Useful functions and classes for data/SBMs/generate_SBM.py
+- data/SBMs/utils_generate_SBM.py : Useful functions for data/SBMs/generate_SBM.py
 - prepare_data.py : put the generated data in the right format for the main_scripts
 - data/SBMs/SBMs_generated.py : Useful to build SBMsDataset graphs : only used when training the model
 - nets/SBMs_node_classification/graph_transformer_net_concat.py : Architecture with LaplacianPE concatenation instead of a simple addition.
