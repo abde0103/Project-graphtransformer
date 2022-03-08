@@ -6,7 +6,14 @@ For graph transformers described below, we tested (cf presentation.pdf) :
 - Model performances for different hidden dimension (cf "**[A Generalization of Transformer Networks to Graphs](https://arxiv.org/abs/2012.09699)**"). 
 - concatenating the Laplacion positional encoding and the input instead of summing them.
 
-
+## Added scripts
+- data/SBMs/generate_SBM.py : generate SBM datasets with the desired parameters
+- data/SBMs/utils_generate_SBM.py : Useful functions and classes for data/SBMs/generate_SBM.py
+- prepare_data.py : put the generated data in the right format for the main_scripts
+- data/SBMs/SBMs_generated.py : 
+- All the scripts in scripts/MAP583 : see below
+- All the files in the folder results : basic results for presentation.pdf 
+- presentation.pdf
 
 ## Dataset generation
 - To generate a dataset, please run : 
